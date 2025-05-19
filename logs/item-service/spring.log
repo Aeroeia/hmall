@@ -1,0 +1,71 @@
+20:55:34:608  INFO 43329 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.27 on aer-XiaoXinPro-14-IMH9 with PID 43329 (/home/aer/hmall/item-service/target/classes started by aer in /home/aer/hmall)
+20:55:34:611 DEBUG 43329 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+20:55:34:612  INFO 43329 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+20:55:35:309  INFO 43329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+20:55:35:312  INFO 43329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20:55:35:336  INFO 43329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+20:55:35:799  INFO 43329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+20:55:35:807  INFO 43329 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+20:55:35:807  INFO 43329 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+20:55:35:884  INFO 43329 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+20:55:35:885  INFO 43329 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+20:55:36:922  INFO 43329 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+20:55:37:273  INFO 43329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+20:55:37:275  INFO 43329 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+20:55:37:278  INFO 43329 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+20:55:37:313  INFO 43329 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+20:55:37:331  INFO 43329 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 3.07 seconds (JVM running for 3.466)
+20:59:05:181  INFO 43329 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:59:05:181  INFO 43329 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+20:59:05:183  INFO 43329 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21:05:56:502  INFO 44704 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.27 on aer-XiaoXinPro-14-IMH9 with PID 44704 (/home/aer/hmall/item-service/target/classes started by aer in /home/aer/hmall)
+21:05:56:504 DEBUG 44704 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:05:56:505  INFO 44704 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+21:05:57:035  INFO 44704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:05:57:037  INFO 44704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:05:57:069  INFO 44704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+21:05:57:406  INFO 44704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+21:05:57:415  INFO 44704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:05:57:416  INFO 44704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:05:57:479  INFO 44704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:05:57:479  INFO 44704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+21:05:58:196  INFO 44704 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:05:58:443  INFO 44704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+21:05:58:444  INFO 44704 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:05:58:446  INFO 44704 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:05:58:462  INFO 44704 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:05:58:473  INFO 44704 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.216 seconds (JVM running for 2.539)
+21:18:41:257  INFO 46354 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.27 on aer-XiaoXinPro-14-IMH9 with PID 46354 (/home/aer/hmall/item-service/target/classes started by aer in /home/aer/hmall)
+21:18:41:260 DEBUG 46354 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:18:41:260  INFO 46354 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+21:18:41:722  INFO 46354 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:18:41:724  INFO 46354 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:18:41:735  INFO 46354 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+21:18:42:011  INFO 46354 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+21:18:42:017  INFO 46354 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:18:42:017  INFO 46354 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:18:42:063  INFO 46354 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:18:42:063  INFO 46354 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 765 ms
+21:18:42:513  INFO 46354 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:18:42:678  INFO 46354 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+21:18:42:679  INFO 46354 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:18:42:680  INFO 46354 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:18:42:694  INFO 46354 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:18:42:704  INFO 46354 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.744 seconds (JVM running for 2.073)
+21:19:34:566  INFO 46354 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:19:34:567  INFO 46354 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21:19:34:568  INFO 46354 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21:19:34:627  INFO 46354 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+21:19:34:783  INFO 46354 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+21:19:34:789 DEBUG 46354 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+21:19:34:803 DEBUG 46354 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 1(Long)
+21:19:34:814 DEBUG 46354 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 0
+21:19:41:500 DEBUG 46354 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+21:19:41:501 DEBUG 46354 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 1(Long)
+21:19:41:503 DEBUG 46354 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 0
+21:29:31:696 DEBUG 46354 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+21:29:31:697 DEBUG 46354 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+21:29:31:703 DEBUG 46354 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+21:29:34:572 DEBUG 46354 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+21:29:34:572 DEBUG 46354 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+21:29:34:575 DEBUG 46354 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
