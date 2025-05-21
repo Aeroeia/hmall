@@ -16,6 +16,11 @@
     </properties>
 
     <dependencies>
+        <!--OK http 的依赖 -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
         <!--openFeign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
