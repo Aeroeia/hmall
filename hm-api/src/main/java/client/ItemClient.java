@@ -1,12 +1,11 @@
-package com.hmall.cart.client;
+package client;
 
-import com.hmall.cart.domain.dto.ItemDTO;
+import domain.dto.ItemDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 @FeignClient("item-service")

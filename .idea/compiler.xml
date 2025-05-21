@@ -11,6 +11,7 @@
         <module name="cart-service" />
         <module name="hm-service" />
         <module name="hm-common" />
+        <module name="hm-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cart-service" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="hm-api" options="-parameters" />
       <module name="hm-common" options="-parameters" />
       <module name="hm-service" options="-parameters" />
       <module name="item-service" options="-parameters" />
