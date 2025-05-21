@@ -26,6 +26,7 @@ mybatis-plus:
 logging:
   level:
     com.hmall: debug
+    client: debug  # Feign客户端所在包
   pattern:
     dateformat: HH:mm:ss:SSS
   file:
