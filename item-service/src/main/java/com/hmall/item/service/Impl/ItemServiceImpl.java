@@ -3,11 +3,11 @@ package com.hmall.item.service.Impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.utils.BeanUtils;
-import com.hmall.item.domain.dto.ItemDTO;
-import com.hmall.item.domain.dto.OrderDetailDTO;
 import com.hmall.item.domain.po.Item;
 import com.hmall.item.mapper.ItemMapper;
 import com.hmall.item.service.IItemService;
+import domain.dto.ItemDTO;
+import domain.dto.OrderDetailDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

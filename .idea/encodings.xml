@@ -7,8 +7,10 @@
     <file url="file://$PROJECT_DIR$/hm-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hm-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pay-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trade-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
   </component>
