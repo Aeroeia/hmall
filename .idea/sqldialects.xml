@@ -2,6 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/../SpringCloud微服务—资料/day03-微服务01/资料/hm-cart.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../SpringCloud微服务—资料/day03-微服务01/资料/hm-pay.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../SpringCloud微服务—资料/day03-微服务01/资料/hm-trade.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../SpringCloud微服务—资料/day03-微服务01/资料/hm-user.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/../SpringCloud微服务—资料/day03-微服务01/资料/nacos.sql" dialect="MySQL" />
   </component>
 </project>
