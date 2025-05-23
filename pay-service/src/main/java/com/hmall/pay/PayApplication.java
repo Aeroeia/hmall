@@ -1,7 +1,5 @@
 package com.hmall.pay;
 
-import client.CartClient;
-import client.ItemClient;
 import client.TradeClient;
 import client.UserClient;
 import config.DefaultFeignConfig;
