@@ -12,6 +12,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,7 +26,8 @@ public class SearchController {
 
     @ApiOperation("搜索商品")
     @GetMapping("/list")
-    public PageDTO<ItemDTO> search(ItemPageQuery query) {
+    public PageDTO<ItemDTO> search(ItemPageQuery query, @RequestHeader(value = "truth", required = false) String header) {
+        System.out.println("header="+header);
         // 分页查询
         Page<Item> result = itemService.lambdaQuery()
                 .like(StrUtil.isNotBlank(query.getKey()), Item::getName, query.getKey())

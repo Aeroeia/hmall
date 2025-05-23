@@ -1,4 +1,4 @@
-package com.hmall.user.utils;
+package com.hmall.gateway.utils;
 
 import cn.hutool.core.exceptions.ValidateException;
 import cn.hutool.jwt.JWT;
