@@ -11,6 +11,11 @@
 
     <artifactId>hm-api</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>com.heima</groupId>
+            <artifactId>hm-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!--OK http 的依赖 -->
         <dependency>
             <groupId>io.github.openfeign</groupId>
