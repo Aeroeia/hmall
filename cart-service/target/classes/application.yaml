@@ -3,3 +3,4 @@ server:
 feign:
   okhttp:
     enabled: true # 开启OKHttp功能
+
