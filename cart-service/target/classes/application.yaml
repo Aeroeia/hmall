@@ -3,4 +3,9 @@ server:
 feign:
   okhttp:
     enabled: true # 开启OKHttp功能
-
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8091
+      http-method-specify: true
