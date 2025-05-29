@@ -7,5 +7,7 @@
     <file url="file://$PROJECT_DIR$/hm-trade.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/hm-user.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/nacos.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/seata-at.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/seata-tc.sql" dialect="MySQL" />
   </component>
 </project>
