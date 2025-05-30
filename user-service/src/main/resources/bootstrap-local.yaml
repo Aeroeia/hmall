@@ -1,0 +1,6 @@
+hm:
+  swagger:
+    title: 购物车服务接口文档
+    package: com.hmall.user.controller
+  db:
+    database: hm-user

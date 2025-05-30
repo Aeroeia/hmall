@@ -19,7 +19,7 @@ import java.util.List;
  * 商品表 服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author 虎哥   
  */
 @Service
 public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements IItemService {
