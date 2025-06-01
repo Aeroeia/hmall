@@ -9,8 +9,10 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+@Slf4j
 @Api(tags = "支付相关接口")
 @RestController
 @RequestMapping("pay-orders")
@@ -34,6 +36,7 @@ public class PayController {
     @PostMapping("{id}")
     public void tryPayOrderByBalance(@PathVariable("id") Long id, @RequestBody PayOrderFormDTO payOrderFormDTO){
         payOrderFormDTO.setId(id);
+        log.info("支付信息:{}",payOrderFormDTO);
         payOrderService.tryPayOrderByBalance(payOrderFormDTO);
     }
 }

@@ -13,3 +13,9 @@ spring:
           - dataId: shared-log.yaml # 共享日志配置
           - dataId: shared-swagger.yaml # 共享日志配置
           - dataId: shared-seata.yaml # 共享日志配置
+  rabbitmq:
+    host: 192.168.112.128 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: 890890 # 密码
