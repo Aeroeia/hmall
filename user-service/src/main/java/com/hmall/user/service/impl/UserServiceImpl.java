@@ -53,6 +53,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         if (!passwordEncoder.matches(password, user.getPassword())) {
             throw new BadRequestException("用户名或密码错误");
         }
+
         // 5.生成TOKEN
         String token = jwtTool.createToken(user.getId(), jwtProperties.getTokenTTL());
         // 6.封装VO返回
@@ -68,7 +69,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     public void deductMoney(String pw, Integer totalFee) {
         log.info("开始扣款,用户密码为:{}",pw);
 
-        // 2.尝试扣款
+        // 2.尝试扣款   
         try {
             baseMapper.updateMoney(UserContext.getUser(), totalFee);
         } catch (Exception e) {
