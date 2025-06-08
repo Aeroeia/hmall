@@ -70,7 +70,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         order.setStatus(1);
         // 1.6.将Order写入数据库order表中
         save(order);
-
         // 2.保存订单详情
         List<OrderDetail> details = buildDetails(order.getId(), items, itemNumMap);
         detailService.saveBatch(details);

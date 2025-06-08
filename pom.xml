@@ -38,6 +38,7 @@
         <mybatis-plus.version>3.4.2</mybatis-plus.version>
         <hutool.version>5.8.11</hutool.version>
         <mysql.version>8.0.23</mysql.version>
+        <elasticsearch.version>7.12.1</elasticsearch.version>
     </properties>
 
     <!-- 对依赖包进行管理 -->

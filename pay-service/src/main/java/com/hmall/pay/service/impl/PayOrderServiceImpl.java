@@ -2,6 +2,7 @@ package com.hmall.pay.service.impl;
 
 import client.TradeClient;
 import client.UserClient;
+import cn.hutool.db.Db;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -44,7 +45,6 @@ public class PayOrderServiceImpl extends ServiceImpl<PayOrderMapper, PayOrder> i
         // 2.返回结果
         return payOrder.getId().toString();
     }
-
     @Override
     @Transactional
     public void tryPayOrderByBalance(PayOrderFormDTO payOrderFormDTO) {
